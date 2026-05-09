@@ -12,4 +12,9 @@ crond
 
 echo "[epg] Serving output/ on :8181"
 cd output
-exec python -m http.server 8181
+exec python -c "
+import http.server, mimetypes
+mimetypes.add_type('audio/x-mpegurl', '.m3u')
+mimetypes.add_type('application/xml', '.xml')
+http.server.test(HandlerClass=http.server.SimpleHTTPRequestHandler, port=8181, bind='')
+"
