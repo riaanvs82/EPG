@@ -56,13 +56,12 @@ keep_groups:
   - "NL | SPORTS GLORY / UFC"
   - "NL | NOS LIVE EVENTS"
   - "NL | MOVIES"
-  - "NL | TV SHOWS"
   - "NL | MOVIES KIDS"
   - "NL | CINEMA 24/7"
   - "NL | MOVIES 4K"
+  # NL | TV SHOWS removed (12,246 entries)
 
   # English VOD
-  - "EN | TV SHOWS"
   - "EN | MOVIES"
   - "EN | MOVIES LATEST"
   - "EN | DOCUMENTARY"
@@ -71,6 +70,3 @@ keep_groups:
   - "EN | MOVIES KIDS"
   - "EN | STAND-UP COMEDY"
   - "EN | LIVE CONCERTS"
-  - "EN | TV SHOWS ANIME"
-  - "EN | TV SHOWS DOCUMENTARY"
-  - "EN | TV SHOWS KIDS CARTOON"
