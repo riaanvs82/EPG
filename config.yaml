@@ -13,8 +13,6 @@ keep_groups:
   - "UK | DOCUMENTARIES"
   - "UK | AMAZON PRIME"
   - "UK | HBO MAX"
-  - "UK | MOVIES"
-  - "UK | MOVIES 24/7"
   - "UK | SERIES 24/7"
   - "UK | SPORTS"
   - "UK | SPORTS SKY SPORTS+"
@@ -31,13 +29,6 @@ keep_groups:
   # Netherlands
   - "NL | NETHERLANDS"
   - "NL | SPORTS F1-TV"
-  - "NL | MOVIES"
-  - "NL | MOVIES KIDS"
-  - "NL | MOVIES 4K"
 
-  # English VOD
-  - "EN | MOVIES"
-  - "EN | MOVIES LATEST"
+  # English
   - "EN | DOCUMENTARY"
-  - "EN | 4K UHD HEVC"
-  - "EN | MOVIES KIDS"
