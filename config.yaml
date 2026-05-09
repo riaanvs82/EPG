@@ -1,4 +1,4 @@
-local_epg_url: "http://localhost:8080/epg.xml"
+local_epg_url: "http://LERRnas:8181/epg.xml"
 
 keep_channels: []
 

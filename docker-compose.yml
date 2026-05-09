@@ -1,0 +1,13 @@
+services:
+  epg:
+    build: .
+    container_name: epg
+    ports:
+      - "8181:8181"
+    volumes:
+      - ./.env:/app/.env:ro
+      - epg_output:/app/output
+    restart: unless-stopped
+
+volumes:
+  epg_output:

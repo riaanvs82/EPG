@@ -156,7 +156,7 @@ def main():
     print(f"Kept {len(kept)} / {len(channels)} channels across {len(kept_tvg_ids)} tvg-ids")
 
     OUTPUT_DIR.mkdir(exist_ok=True)
-    playlist_path = OUTPUT_DIR / "playlist.m3u"
+    playlist_path = OUTPUT_DIR / "pl.m3u"
     write_m3u(kept, playlist_path, local_epg_url)
     print(f"Written: {playlist_path} ({playlist_path.stat().st_size // 1024} KB)")
 
